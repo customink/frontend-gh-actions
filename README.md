@@ -17,12 +17,12 @@ TEST_VAR=TEST_VAL
 
 ### `dotenv-file-name`
 
-**Required** The filename to write the environment variables into. Default to `./.env`.
+**Required** The filename to write the environment variables into. Defaults to `./.env`.
 
 ### Example usage
 
 ```
-uses: @customink/frontend-gh-actions/pr-desc-to-dotenv-action@v1.0
+uses: customink/frontend-gh-actions/pr-desc-to-dotenv-action@v1.0
 with:
-  dotenv-file-name: '.env.development'
+  dotenv-file-name: '.env.development'  # Optional; will fall back to .env as default
 ```
