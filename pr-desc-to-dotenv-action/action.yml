@@ -1,0 +1,10 @@
+name: 'PR description to dotenv action'
+description: 'Write environment variables from PR description to dotenv file'
+inputs:
+  dotenv-file-name:
+    description: 'Output dotenv filename'
+    required: true
+    default: '.env'
+runs:
+  using: 'node16'
+  main: 'index.js'

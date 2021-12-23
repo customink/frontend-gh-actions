@@ -1,0 +1,23 @@
+{
+  "name": "testing-action-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cat .env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheAdamizer/testing-action-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheAdamizer/testing-action-repo/issues"
+  },
+  "homepage": "https://github.com/TheAdamizer/testing-action-repo#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0"
+  }
+}
