@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/TheAdamizer/testing-action-repo#readme",
   "dependencies": {
-    "@actions/core": "^1.6.0"
+    "@actions/core": "^1.9.1"
   }
 }
